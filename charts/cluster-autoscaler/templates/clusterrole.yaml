@@ -29,7 +29,7 @@ rules:
   - apiGroups: ["policy"]
     resources: ["poddisruptionbudgets"]
     verbs: ["watch", "list"]
-    - apiGroups: ["apps"]
+  - apiGroups: ["apps"]
     resources: ["statefulsets", "replicasets", "daemonsets"]
     verbs: ["watch", "list", "get"]
   - apiGroups: ["storage.k8s.io"]

@@ -12,7 +12,7 @@ image:
 clusterName: "DevX"
 
 annotaions:
-  role-arn: ""
+  role_arn: ""
 
 serviceAccount:
   # Specifies whether a service account should be created
