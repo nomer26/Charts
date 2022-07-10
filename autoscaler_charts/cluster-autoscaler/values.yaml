@@ -9,9 +9,9 @@ image:
   # Overrides the image tag whose default is the chart appVersion.
   tag: "v1.21.0"
 
-clusterName: "DevX"
+clusterName: ""
 
-annotaions:
+annotations:
   role_arn: ""
 
 serviceAccount:
